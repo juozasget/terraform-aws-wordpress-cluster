@@ -15,13 +15,13 @@ git clone https://github.com/juozasget/wordpress-nginx-docker /home/ubuntu/web
 mkdir -p /home/ubuntu/web/webcerts/ /home/ubuntu/web/certs-data/ /home/ubuntu/web/logs/nginx/ /home/ubuntu/web/wordpress/
 
 export WORDPRESS_DB_NAME="example_database"
-export WORDPRESS_DB_HOST="terraform-20181204161249695500000001.c3drsrfy3jms.eu-west-1.rds.amazonaws.com:3306"
+export WORDPRESS_DB_HOST="terraform-20181205094527125800000001.c3drsrfy3jms.eu-west-1.rds.amazonaws.com:3306"
 export WORDPRESS_DB_PASSWORD="databasepsw123"
 export WORDPRESS_DB_USER="root"
 
 cat > /home/ubuntu/web/variables.env <<EOF
 WORDPRESS_DB_NAME=example_database
-WORDPRESS_DB_HOST=terraform-20181204161249695500000001.c3drsrfy3jms.eu-west-1.rds.amazonaws.com:3306
+WORDPRESS_DB_HOST=terraform-20181205094527125800000001.c3drsrfy3jms.eu-west-1.rds.amazonaws.com:3306
 WORDPRESS_DB_PASSWORD=databasepsw123
 WORDPRESS_DB_USER=root
 EOF
